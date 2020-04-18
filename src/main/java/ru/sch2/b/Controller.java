@@ -26,5 +26,11 @@ public class Controller {
     }
 
 
+    @GetMapping(path="/task")
+    public String task() {
+        return "task";
+    }
+
+
 
 }
